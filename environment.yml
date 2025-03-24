@@ -1,0 +1,5 @@
+name: complianceEnv
+dependencies:
+  - python
+  - pandas
+  - seaborn
