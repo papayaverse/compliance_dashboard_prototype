@@ -437,6 +437,7 @@
         ]
     },
     "advantech.com": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "text": "Customize"
@@ -449,14 +450,17 @@
             }
         }
     },
-    "affordable-papers.net": {
+    "affordablepapers.com": {
+        "verified": true,
+        "human": true,
         "external_buttons": {
-            "reject_all": {
-                "id": "hide-cookie-banner"
+            "accept_all": {
+                "id": "Close"
             }
         }
     },
     "afnor.org": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "id": "didomi-notice-learn-more-button"
@@ -505,6 +509,7 @@
         ]
     },
     "agilent.com": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "text": "Cookie Settings",
@@ -550,7 +555,8 @@
             }
         ]
     },
-    "aicpa.org": {
+    "aicpa-cima.com": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "class": "ot-floating-button__open"
@@ -595,6 +601,8 @@
         ]
     },
     "alz.org": {
+        "verified": true,
+        "nano": true,
         "external_buttons": {
             "accept_all": {
                 "text": "I Understand",
@@ -609,14 +617,25 @@
         }
     },
     "amd.com": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "text": "Cookie Settings",
                 "id": "onetrust-pc-btn-handler"
             }
-        }
+        },
+        "internal_buttons": [
+            {
+                "option_name": "confirm_my_preferences",
+                "element_type": "button",
+                "text": "Confirm My Choices",
+                "id": null
+            }
+        ]
     },
     "americangirl.com": {
+        "verified": true,
+        "notes": "vile slider internally, banner on top??",
         "external_buttons": {
             "accept_all": {
                 "id": "truste-consent-button",
@@ -630,6 +649,8 @@
         }
     },
     "ampproject.org": {
+        "verified": true,
+        "notes": "no banner seen by me",
         "external_buttons": {
             "accept_all": {
                 "text": "Got it!",
@@ -638,6 +659,8 @@
         }
     },
     "anpc.ro": {
+        "verified": true,
+        "notes": "romanian",
         "external_buttons": {
             "accept_all": {
                 "text": "Acceptă",
@@ -654,6 +677,8 @@
         }
     },
     "answers.com": {
+        "verified": true,
+        "notes": "no banner seen by me",
         "external_buttons": {
             "reject_all": {
                 "text": "Necessary cookies only",
@@ -663,6 +688,8 @@
         }
     },
     "anthropologie.com": {
+        "verified": true,
+        "notes": "onetrust banner hidden in illinois probably", 
         "external_buttons": {
             "accept_all": {
                 "text": "Allow All",
@@ -677,6 +704,9 @@
         }
     },
     "anydesk.com": {
+        "verified": true,
+        "nano": true,
+        "notes": "external buttons here, internal buttons in nano, onetrust",
         "external_buttons": {
             "manage_my_preferences": {
                 "class": "ot-floating-button__open"
@@ -684,6 +714,7 @@
         }
     },
     "aol.de": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "text": "Datenschutzeinstellungen verwalten"
@@ -697,6 +728,8 @@
         }
     },
     "ap.org": {
+        "verified": true,
+        "notes": "no banner seen by me, may use onetrust",
         "external_buttons": {
             "accept_all": {
                 "class": "ot-link-btn"
@@ -735,6 +768,8 @@
         ]
     },
     "apc.com": {
+        "verified": true,
+        "notes": "internal buttons done by me, no reject all",
         "external_buttons": {
             "accept_all": {
                 "text": "Accept all",
@@ -745,9 +780,19 @@
                 "id": "onetrust-pc-btn-handler",
                 "class": "cookie-setting-link"
             }
-        }
+        },
+        "internal_buttons": [
+            {
+                "option_name": "confirm_my_preferences",
+                "element_type": "button",
+                "text": "Save",
+                "id": "",
+                "class": "save-preference-btn-handler onetrust-close-btn-handler"
+            }
+        ]
     },
     "applovin.com": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "id": "onetrust-pc-btn-handler"
@@ -763,6 +808,8 @@
         }
     },
     "appsflyer.com": {
+        "verified": true,
+        "notes": "Onetrust whitelabel, clicked reject all even though not exposed which is cute",
         "external_buttons": {
             "accept_all": {
                 "text": "Allow All",
@@ -774,6 +821,8 @@
         }
     },
     "arcadis.com": {
+        "verified": true,
+        "notes": "external fine, internal by me",
         "external_buttons": {
             "manage_my_preferences": {
                 "text": "Manage my cookies",
@@ -784,9 +833,17 @@
                 "id": "CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
                 "class": "cookie-consent__btn-active"
             }
-        }
+        },
+        "internal_buttons": [
+            {
+                "option_name": "reject_all",
+                "element_type": "button",
+                "text": "Use necessary cookies only"
+            }
+        ]
     },
     "arsenal.com": {
+        "verified": true,
         "external_buttons": {
             "manage_my_preferences": {
                 "text": "Customise",
