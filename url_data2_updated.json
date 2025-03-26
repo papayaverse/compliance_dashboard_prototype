@@ -897,6 +897,7 @@
         ]
     },
     "aru.ac.uk": {
+        "notes": "Need to include shadow dom detection",
         "external_buttons": {
             "accept_all": {
                 "class": "cta__primary--blue"
@@ -904,6 +905,8 @@
         }
     },
     "asu.edu": {
+        "verified": true,
+        "notes": "has cookie banner, not visible in illinois",
         "external_buttons": {
             "accept_all": {
                 "text": "Ok, I agree",
