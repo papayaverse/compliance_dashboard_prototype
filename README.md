@@ -27,14 +27,7 @@ Breakdown of how many websites let users customize preferences (e.g., marketing 
 
 ---
 
-### 3. Dark Patterns: Reject All Buried
-![Reject All Buried](reject_all_buried.png)
-
-Websites that **bury "Reject All"** under multiple layers are using deceptive design patterns. GDPR requires equal prominence of consent and rejection options.
-
----
-
-### 4. Presence of a "Reject All" Button
+### 3. Presence of a "Reject All" Button
 ![Reject All Present](reject_all_present.png)
 
 Just under half the websites fail to offer any clear "Reject All" option at all, making them non-compliant under GDPR and CCPA.
